@@ -2,7 +2,7 @@
 #setInverse cached inverse matrix
 makeCacheMatrix <- function(x = matrix(1:5, nrow = 3, ncol = 3)) {
         invrs <- NULL
-        set <- function(newMatrix){
+        setMatrix <- function(newMatrix){
                 x <<- newMatrix
                 invrs <<- NULL
         }
@@ -10,9 +10,10 @@ makeCacheMatrix <- function(x = matrix(1:5, nrow = 3, ncol = 3)) {
         getInverse <- function() invrs
         setInverse <- function(newInvrs) invrs <<- newInvrs;
         
-        list(getMatrix = getMatrix,
-             getInverse = getInverse,
-             setInverse = setInverse)
+        list(setMatrix = setMatrix,
+             getMatrix = getMatrix,
+             setInverse = setInverse,
+             getInverse = getInverse)
 }
 
 ##This function computes the inverse of the special "matrix" returned by 
