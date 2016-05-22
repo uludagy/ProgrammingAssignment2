@@ -22,8 +22,8 @@ special object that stores a numeric vector and caches its mean.
 The first function, `makeVector` creates a special "vector", which is
 really a list containing a function to
 
-#Thrill is gone
-<!- -> What is this bullshit 
+###Thrill is gone
+<!-- --> It was a section that I dont know. 
 
 1.  set the value of the vector
 2.  get the value of the vector
