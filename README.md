@@ -22,10 +22,14 @@ special object that stores a numeric vector and caches its mean.
 The first function, `makeVector` creates a special "vector", which is
 really a list containing a function to
 
+#Thrill is gone
+<!- -> What is this bullshit 
+
 1.  set the value of the vector
 2.  get the value of the vector
 3.  set the value of the mean
 4.  get the value of the mean
+
 
 <!-- -->
 
